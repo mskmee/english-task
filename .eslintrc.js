@@ -14,6 +14,7 @@ module.exports = {
     'ecmaVersion': 'latest',
     'sourceType': 'module'
   },
+  'ignorePatterns': ['webpack.config.js', 'webpack.dev.config.js', 'webpack.prod.config.js'],
   'plugins': [
     '@typescript-eslint'
   ],
